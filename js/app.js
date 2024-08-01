@@ -58,7 +58,7 @@ function validateForm() {
             window.location.href = 'coverdetails.html';
         }
 
-document.getElementById('coverDetailsForm').addEventListener('submit', function(event) {
+function handleFormSubmission(event) {
             event.preventDefault();
             
             // Basic validation checks
@@ -87,4 +87,7 @@ document.getElementById('coverDetailsForm').addEventListener('submit', function(
             
             // If validation is successful, redirect to driverdetails.html
             window.location.href = 'driverdetails.html';
-        });
+        }
+
+        document.getElementById('coverDetailsForm').addEventListener('submit', handleFormSubmission);
+    
