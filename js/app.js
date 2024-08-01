@@ -38,11 +38,22 @@ document
     window.location.href = "login.html";
   });
 
-document
-    .querySelector(("#registration-form"))
-    .addEventListener("submit", function (event) {
-      event.preventDefault(); // Prevent default form submission
-
-      // Redirect to coverdetails.html
-      window.location.href = "coverdetails.html";
-    });
+function validateForm() {
+            const email = document.getElementById('email').value;
+            const password = document.getElementById('password').value;
+            
+            // Basic validation checks
+            if (email === '') {
+                alert('Please enter your email');
+                return false;
+            }
+            if (password === '') {
+                alert('Please enter your password');
+                return false;
+            }
+            
+            // You can add more advanced validation checks here, such as email format validation
+            
+            // If validation is successful, redirect to coverdetails.html
+            window.location.href = 'coverdetails.html';
+        }
