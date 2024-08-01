@@ -87,56 +87,55 @@
             </div>
             <div class="card-text container">
                 <form id="coverDetailsForm">
-                    <div class="form-group fw-bold">
-                        <label for="carNameInput2">Reason for Cover</label>
-                        <select class="form-control" id="carTypeSelect2" aria-placeholder="months">
-                            <option>State your reason</option>
-                            <option>Borrowing a Car</option>
-                            <option>Drive Away Cover</option>
-                            <option>Learning to Drive in someone else's Car</option>
-                            <option>Learning to Drive in your own Car</option>
-                        </select>
-                    </div>
-                    <div class="form-group fw-bold my-3">
-                        <label for="carTypeSelect2">Duration type</label>
-                        <select class="form-control my-3" id="carTypeSelect2" >
-                            <option>Months</option>
-                            <option>0 Month</option>
-                            <option>1 Month</option>
-                            <option>2 Months</option>
-                            <option>3 Months</option>
-                            <option>4 Months</option>
-                            <option>5 Months</option>
-                            <option>6 Months</option>
-                            <option>7 Months</option>
-                            <option>8 Months</option>
-                            <option>9 Months</option>
-                            <option>10 Months</option>
-                            <option>11 Months</option>
-                            <option>12 Months</option>
-
-                        </select>
-                        <select class="form-control" id="carTypeSelect2" aria-placeholder="months">
-                            <option>Weeks</option>
-                            <option>1 Week</option>
-                            <option>2 Weeks</option>
-                            <option>3 Weeks</option>
-                        </select>
-                        <input type="number" class="form-control mt-3" id="carRegNumberInput2" max="6" placeholder="Days">
-                        <input type="number" class="form-control mt-3" id="carRegNumberInput2" max="23" placeholder="Hours">
-                    </div>
-                    <div class="form-group fw-bold">
-                        <label for="carRegNumberInput2">Start Date</label>
-                        <input type="date" class="form-control" id="carRegNumberInput2">
-                    </div>
-                    <div class="form-group fw-bold">
-                        <label for="carRegNumberInput2">End Date</label>
-                        <input type="date" class="form-control" id="carRegNumberInput2">
-                    </div>
-                    <button type="submit" class="btn btn-primary mt-3 m4-5 p-3 fw-bold">Get Quote
-                        <i class="bi bi-arrow-right-circle-fill"></i>
-                    </button>
-                </form>
+        <div class="form-group fw-bold">
+            <label for="reasonForCover">Reason for Cover</label>
+            <select class="form-control" id="reasonForCover">
+                <option value="">State your reason</option>
+                <option>Borrowing a Car</option>
+                <option>Drive Away Cover</option>
+                <option>Learning to Drive in someone else's Car</option>
+                <option>Learning to Drive in your own Car</option>
+            </select>
+        </div>
+        <div class="form-group fw-bold my-3">
+            <label for="durationType">Duration type</label>
+            <select class="form-control my-3" id="durationType">
+                <option>Months</option>
+                <option>0 Month</option>
+                <option>1 Month</option>
+                <option>2 Months</option>
+                <option>3 Months</option>
+                <option>4 Months</option>
+                <option>5 Months</option>
+                <option>6 Months</option>
+                <option>7 Months</option>
+                <option>8 Months</option>
+                <option>9 Months</option>
+                <option>10 Months</option>
+                <option>11 Months</option>
+                <option>12 Months</option>
+            </select>
+            <select class="form-control" id="weeks">
+                <option>Weeks</option>
+                <option>1 Week</option>
+                <option>2 Weeks</option>
+                <option>3 Weeks</option>
+            </select>
+            <input type="number" class="form-control mt-3" id="days" max="6" placeholder="Days">
+            <input type="number" class="form-control mt-3" id="hours" max="23" placeholder="Hours">
+        </div>
+        <div class="form-group fw-bold">
+            <label for="startDate">Start Date</label>
+            <input type="date" class="form-control" id="startDate">
+        </div>
+        <div class="form-group fw-bold">
+            <label for="endDate">End Date</label>
+            <input type="date" class="form-control" id="endDate">
+        </div>
+        <button type="submit" class="btn btn-primary mt-3 m4-5 p-3 fw-bold">Get Quote
+            <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+    </form>
             </div>
             <div class="divider"><hr></div>
             <p class="card-text text-center h5">Get quotes, buy online and be on your way in less than 2 minutes!</p>
