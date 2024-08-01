@@ -57,3 +57,34 @@ function validateForm() {
             // If validation is successful, redirect to coverdetails.html
             window.location.href = 'coverdetails.html';
         }
+
+document.getElementById('coverDetailsForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            
+            // Basic validation checks
+            const reasonForCover = document.getElementById('reasonForCover').value;
+            const durationType = document.getElementById('durationType').value;
+            const weeks = document.getElementById('weeks').value;
+            const days = document.getElementById('days').value;
+            const hours = document.getElementById('hours').value;
+            const startDate = document.getElementById('startDate').value;
+            const endDate = document.getElementById('endDate').value;
+            
+            if (reasonForCover === '') {
+                alert('Please state your reason for cover');
+                return false;
+            }
+            if (startDate === '') {
+                alert('Please select a start date');
+                return false;
+            }
+            if (endDate === '') {
+                alert('Please select an end date');
+                return false;
+            }
+            
+            // More advanced validation can be added here
+            
+            // If validation is successful, redirect to driverdetails.html
+            window.location.href = 'driverdetails.html';
+        });
