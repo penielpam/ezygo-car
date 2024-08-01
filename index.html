@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ezygo Car Insurance</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+      <div class="container">
+        <a class="navbar-brand " href="index.html">
+          <img src="img/ezygologo.png" alt="logo" class="img-fluid w-50">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Temporary Car Insurance
+              </a>
+              <ul class="dropdown-menu">
+                <a class="dropdown-item fw-bold" href="#">Hourly Car Insurance</a>
+              <a class="dropdown-item fw-bold" href="#">Daily Car Insurance</a>
+              <div class="dropdown-divider fw-bold"></div>
+              <a class="dropdown-item fw-bold" href="#">Weekly Car Insurance</a>
+              <a class="dropdown-item fw-bold" href="#">Monthly Car Insurance</a>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Temporary Van Insurance
+              </a>
+              <ul class="dropdown-menu">
+                <a class="dropdown-item fw-bold" href="#">Hourly Car Insurance</a>
+              <a class="dropdown-item fw-bold" href="#">Daily Car Insurance</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item fw-bold" href="#">Weekly Car Insurance</a>
+              <a class="dropdown-item fw-bold" href="#">Monthly Car Insurance</a>
+              </ul>
+            </li>
+            <li class="nav-item dropdown ">
+              <a class="nav-link dropdown-toggle fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Learner Driver Insurance
+              </a>
+              <ul class="dropdown-menu">
+                <a class="dropdown-item fw-bold" href="#">Hourly Car Insurance</a>
+              <a class="dropdown-item fw-bold" href="#">Daily Car Insurance</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item fw-bold" href="#">Weekly Car Insurance</a>
+              <a class="dropdown-item fw-bold" href="#">Monthly Car Insurance</a>
+              </ul>
+            </li>
+            <!-- <li class="nav-item fw-bold ">
+              <a class="nav-link text-primary    " href="login.html" role="button">
+                Login
+              </a>
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link " href="login.html" role="button">
+                <button type="button" class="btn btn-outline-primary fw-bold ">Sign In
+                  <i class="bi bi-person-fill text-small"></i>
+                <span>
+                  
+                </span>  
+                </button>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero section -->
+   <div class="d-flex justify-content-center align-items-center mt-5">
+        <div class="card w-50 hero">
+            <div class="card-body">
+                <h5 class="card-title h1 text-center">Temporary Car Insurance</h5>
+                <h6 class="card-subtitle mb-4 h2 text-center">for cars and learner drivers</h6>
+                <div class="card-text mb-4 text-center">
+                    <i class="bi bi-dash-lg w-50"></i>
+                    <span class="lead">Cover from <span class="fw-bold">1 hour to 28 days</span> in an instant</span>
+                    <i class="bi bi-dash-lg"></i>
+                </div>
+                <div class="card-text container">
+                    <form id="carDetailsForm">
+                        <div class="form-group fw-bold">
+                            <label for="carNameInput">Car Name</label>
+                            <input type="text" class="form-control" id="carNameInput" placeholder="Enter car name" required>
+                        </div>
+                        <div class="form-group fw-bold my-3">
+                            <label for="carTypeSelect">Car Type</label>
+                            <select class="form-control" id="carTypeSelect" required>
+                                <option value="">Select car type</option>
+                                <option>Type 1</option>
+                                <option>Type 2</option>
+                                <option>Type 3</option>
+                                <option>Type 4</option>
+                                <option>Type 5</option>
+                            </select>
+                        </div>
+                        <div class="form-group fw-bold">
+                            <label for="carRegNumberInput">Car Reg Number</label>
+                            <input type="text" class="form-control" id="carRegNumberInput" placeholder="Enter car reg number" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary mt-3 m4-5 p-3 fw-bold">Get Quote
+                            <i class="bi bi-arrow-right-circle-fill"></i>
+                        </button>
+                    </form>
+                </div>
+                <div class="divider"><hr></div>
+                <p class="card-text text-center h5">Get quotes, buy online and be on your way in less than 2 minutes!</p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- About -->
+     <div class="container">
+      <div class="row gx-4 gx-lg-5 align-items-center my-5">
+                    <div class="col-lg-7"><img class="img-fluid rounded mb-4 mb-lg-0" src="img/bgpic2.jpg" alt="..."></div>
+                    <div class="col-lg-5">
+                        <h1 class="font-weight-light">
+                          Get instant online coverfrom 1 hour to 28 days in three quick & easy steps
+                        </h1>
+                        <ul class="list-group">
+                          <li class="list-group-item d-flex justify-content-between align-items-center h4">
+                           Fill out our quick online form
+                          </li>
+                          <li class="list-group-item d-flex justify-content-between align-items-center h4 my-3">
+                            
+                            Get an online quote & choose your options
+                          </li>
+                          <li class="list-group-item d-flex justify-content-between align-items-center h4">
+                            Just pay online & you are instantly insured!
+                          </li>
+                        </ul>
+                        <button type="submit" class="btn btn-primary mt-3 m4-5 p-3 fw-bold">Get Quote
+                        <i class="bi bi-arrow-right-circle-fill"></i>
+                    </button>
+                    </div>
+        </div>
+     </div>
+  
+
+     <!-- Footer -->
+      <div class="footer">
+        <div class="container ">
+      <footer class="row row-cols-5 py-5 mt-5 border-top ">
+        <div class="col">
+          <a href="/" class="d-flex align-items-center mb-3 link-dark text-decoration-none fw-bold">
+            <span class="img-fluid"><img src="img/ezygologo.png" alt="logo" class="img-fluid"></span>
+          </a>
+          <p class="text-muted fw-bold">© 2024 Ezygo. All rights reserved.</p>
+
+          <hr>
+        </div>
+
+        <div class="col">
+
+        </div>
+
+        <div class="col">
+          <h5>Useful Links</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Who We Cover</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Discover Ezygog</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About Ezygo</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Help Centre</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Blog</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Contact
+            </a></li>
+          </ul>
+          <hr>
+        </div>
+
+        <div class="col">
+          <h5>Key Information</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Privacy Policy</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Cookie Policy</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Terms of Business</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Website Terms of Use</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"></a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"></a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"></a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"></a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"></a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"></a></li><li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"></a></li><li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"></a></li><li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"></a></li><li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"></a></li><li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"></a></li><li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"></a></li>
+          </ul>
+          <hr>
+        </div>
+
+        <div class="col">
+          <h5>Help Centre</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQS</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Complaints</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"></a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"></a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"></a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"></a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"></a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"></a></li><li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"></a></li><li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"></a></li><li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"></a></li><li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"></a></li><li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"></a></li><li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"></a></li><li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"></a></li><li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"></a></li><li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"></a></li><li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"></a></li><li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"></a></li><li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"></a></li><li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"></a></li><li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"></a></li>
+          </ul>
+          <hr>
+          </ul>
+        </div>
+
+        <div class="col"></div>
+
+        <div class="col"></div>
+        
+
+        <div class="col-6 mt-4">
+          <p>Ezygo is a trading style One Insurance Limited registered in Gibraltar. Company Incorporation Number 123555 We are a UK based insurance broker and we are authorized and regulated by the Financial Conduct Authority under reference number 998980</p>
+        </div>
+      </footer>
+        </div>
+      </div>
+    
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="js/app.js"></script>
+</body>
+
+</html>
